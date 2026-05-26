@@ -3,22 +3,23 @@
   "name": "json-server-api",
   "version": "1.0.0",
   "description": "Production JSON Server API",
+  "private": true,
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "dev": "node server.js"
+    "start": "node server.js"
   },
   "keywords": [
     "json-server",
     "fake-api",
     "rest-api"
   ],
-  "author": "Your Name",
+  "author": "K Singh",
   "license": "MIT",
   "engines": {
-    "node": ">=18"
+    "node": "20.x"
   },
   "dependencies": {
-    "json-server": "^1.0.0-beta.15"
+    "json-server": "0.17.4"
   }
 }
+ 
