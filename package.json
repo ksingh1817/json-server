@@ -1,9 +1,25 @@
+ 
 {
-  "name": "json-server",
+  "name": "json-server-api",
   "version": "1.0.0",
-  "description": "Fake REST API based on a json schema. Useful for mocking and creating prototyping.",
+  "description": "Production JSON Server API",
+  "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "json-server",
+    "fake-api",
+    "rest-api"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "json-server": "^1.0.0-beta.15"
   },
   "devDependencies": {
     "json-server": "^1.0.0-beta.15"
